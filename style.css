@@ -1,0 +1,102 @@
+body {
+  background-color: rgb(247, 249, 249);
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color: rgb(32, 129, 195);
+  font-weight: 800;
+}
+
+h2 {
+  color: rgb(99, 210, 255);
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 80px;
+}
+
+i {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(190, 216, 212);
+}
+
+.card {
+  width: 700px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.062)
+}
+
+@media (max-width: 750px) {
+  .card {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.062)
+  }
+}
+.img-circle {
+    width: 17%;
+    text-align: center;
+    border-radius: 100%;
+    height: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.fab {
+  font-size: 48px;
+}
+
+.fab:hover {
+  color:rgb(32, 129, 195);
+}
+
+.btn-login {
+  padding: 10px;
+  border-radius: 10px;
+  width: 180px;
+  margin: 20px auto;
+  background-color: rgb(190, 216, 212);
+}
+
+.btn-login > a {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.btn-login:hover {
+  background-color: rgb(32, 129, 195);
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+.btn-login > a:hover {
+  background-color: transparent;
+  color: white;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
